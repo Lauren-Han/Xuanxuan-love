@@ -67,4 +67,12 @@ button {
     align-items: center;
     justify-content: center;
 }
+/* 移动端优化 | Mobile optimization */
+@media (max-width: 767px) {
+    #languageSelect.styled-select {
+        /* 响应式字号 | Responsive font size */
+        font-size: 5.5vw;
+        margin: 5px;
+    }
+}
 
